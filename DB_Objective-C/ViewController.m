@@ -26,14 +26,12 @@
     [obj saveInBackgroundWithBlock:^(NSError *error) {
         if (error){
             // 保存に失敗した場合の処理
-            NSInteger error_code = error.code;
-            NSLog(@"エラーが発生しました。エラーコード：%d", (int)error_code);
-            self.alertText.text = [NSString stringWithFormat:@"エラーが発生しました。エラーコード：%d", (int)error_code];
+            NSLog(@"エラーが発生しました。エラーコード：%d", (int)error.code);
+            self.alertText.text = [NSString stringWithFormat:@"エラーが発生しました。エラーコード：%d", (int)error.code];
         } else {
             // 保存に成功した場合の処理
-            NSString *objId = obj.objectId;
-            NSLog(@"保存に成功しました。objectId：%@", objId);
-            self.alertText.text = [NSString stringWithFormat:@"保存に成功しました。objectId：%@", objId];
+            NSLog(@"保存に成功しました。objectId：%@", obj.objectId);
+            self.alertText.text = [NSString stringWithFormat:@"保存に成功しました。objectId：%@", obj.objectId];
         }
     }];
 }
