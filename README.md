@@ -2,7 +2,7 @@
 ![画像1](/readme-img/001.png)
 
 ## 概要
-* Xcode(Objective-C)で作成したiOSアプリから、[ニフティクラウドmobile backend](http://mb.cloud.nifty.com/)へデータ登録を行うサンプアプリです
+* Xcode(Objective-C)で作成したiOSアプリから、[ニフティクラウドmobile backend](http://mb.cloud.nifty.com/)へデータ登録を行うサンプアプリです（Swift版は[こちら](https://github.com/natsumo/iOS-Swift_DB_DEMO)）
  * 「START DEMO」ボタンをタップするとクラウドにデータが上がります★
 * 簡単な操作ですぐに [ニフティクラウドmobile backend](http://mb.cloud.nifty.com/)を体験いただけます
 
@@ -55,7 +55,7 @@
 
 ![画像07](/readme-img/007.png)
 
-* それぞれ`YOUR_NCMB_APPLICATIONKEY`と`YOUR_NCMB_CLIENTKEY`の部分を書き換えます
+* それぞれ`YOUR_NCMB_APPLICATION_KEY`と`YOUR_NCMB_CLIENT_KEY`の部分を書き換えます
  * このとき、ダブルクォーテーション（`"`）を消さないように注意してください！
 * 書き換え終わったら`command + s`キーで保存をします
 
@@ -80,7 +80,7 @@
 
 #### SDKのインポートと初期設定
 * ニフティクラウドmobile backend の[ドキュメント（クイックスタート）](http://mb.cloud.nifty.com/doc/current/introduction/quickstart_ios.html)をご覧ください
- * このDEMOアプリは「CocoaPods」を利用する方法で作成しています
+ * このDEMOアプリは「CocoaPods」を利用する方法でSDKをインポートしています
 
 #### ロジック
  * `Main.storyboard`でデザインを作成し、`ViewController.m`にロジックを書いています
@@ -132,4 +132,5 @@
 ```
 
 ## 参考
-* 編集中
+* 同じ内容の【Swift】版もご用意しています
+ * https://github.com/natsumo/iOS-Swift_DB_DEMO
