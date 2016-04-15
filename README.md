@@ -25,7 +25,7 @@
 ## 手順
 ### 1. [ニフティクラウドmobile backend](http://mb.cloud.nifty.com/)の会員登録とログイン→アプリ作成
 
-* 上記リンクから会員登録（無料）をします。登録ができたらログインをすると下図のように「アプリの新規作成」画面出るのでアプリを作成します
+* 上記リンクから会員登録（無料）をします。登録ができたらログインをすると下図のように「アプリの新規作成」画面が出るのでアプリを作成します
 
 ![画像3](/readme-img/003.png)
 
@@ -115,8 +115,8 @@
     [obj saveInBackgroundWithBlock:^(NSError *error) {
         if (error){
             // 保存に失敗した場合の処理
-            NSLog(@"エラーが発生しました。エラーコード：%d", (int)error.code);
-            self.alertText.text = [NSString stringWithFormat:@"エラーが発生しました。エラーコード：%d", (int)error.code];
+            NSLog(@"エラーが発生しました。エラーコード：%ld", error.code);
+            self.alertText.text = [NSString stringWithFormat:@"エラーが発生しました。エラーコード：%ld", error.code];
         } else {
             // 保存に成功した場合の処理
             NSLog(@"保存に成功しました。objectId：%@", obj.objectId);

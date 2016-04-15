@@ -26,8 +26,8 @@
     [obj saveInBackgroundWithBlock:^(NSError *error) {
         if (error){
             // 保存に失敗した場合の処理
-            NSLog(@"エラーが発生しました。エラーコード：%d", (int)error.code);
-            self.alertText.text = [NSString stringWithFormat:@"エラーが発生しました。エラーコード：%d", (int)error.code];
+            NSLog(@"エラーが発生しました。エラーコード：%ld", error.code);
+            self.alertText.text = [NSString stringWithFormat:@"エラーが発生しました。エラーコード：%ld", error.code];
         } else {
             // 保存に成功した場合の処理
             NSLog(@"保存に成功しました。objectId：%@", obj.objectId);
