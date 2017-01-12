@@ -38,15 +38,19 @@
 
 ![画像5](/readme-img/005.png)
 
-### 2. [GitHub](https://github.com/natsumo/iOS-Objective-C_DB_DEMO.git)からサンプルプロジェクトのダウンロード
-
-* この画面([GitHub](https://github.com/natsumo/iOS-Objective-C_DB_DEMO.git))の![画像10](/readme-img/010.png)ボタンをクリックし、さらに![画像14](/readme-img/014.PNG)ボタンをクリックしてサンプルプロジェクトをMacにダウンロードします
+#### 2. GitHubからサンプルプロジェクトのダウンロード
+* 下記リンクをクリックしてプロジェクトをダウンロードをMacにダウンロードします
+ * __[DB_Objective-C](https://github.com/NIFTYCloud-mbaas/iOS-Objective-C_DB_DEMO/archive/master.zip)__
 
 ### 3. Xcodeでアプリを起動
+* ダウンロードしたフォルダを開き、「DB_Objective-C.xcworkspace」をダブルクリックしてXcode開きます(白い方です)
 
-* ダウンロードしたフォルダを開き、![画像09](/readme-img/009.png)をダブルクリックしてXcode開きます　![画像08](/readme-img/008.png)
+![画像09](/readme-img/009.png)
 
 ![画像6](/readme-img/006.png)
+
+* 「DB_Objective-C.xcodeproj」（青い方）ではないので注意してください！
+![画像08](/readme-img/008.png)
 
 ### 4. APIキーの設定
 
