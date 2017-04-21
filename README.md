@@ -91,14 +91,6 @@
  * `testClass`オブジェクトに対してkey, value形式で値をセット（`setObject`）し、`saveInBackgroundWithBlock`メソッドを実行すると、非同期にてデータが保存されます
 
 ```objc
-//
-//  ViewController.m
-//  DB_Objective-C
-//
-//  Created by Natsumo Ikeda on 2016/04/13.
-//  Copyright © 2016年 NIFTY Corporation. All rights reserved.
-//
-
 #import "ViewController.h"
 #import "NCMB/NCMB.h"
 
