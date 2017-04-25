@@ -3,7 +3,7 @@
 //  DB_Objective-C
 //
 //  Created by Ikeda Natsumo on 2016/04/13.
-//  Copyright © 2016年 NIFTY Corporation. All rights reserved.
+//  Copyright 2017 FUJITSU CLOUD TECHNOLOGIES LIMITED All Rights Reserved.
 //
 
 #import <UIKit/UIKit.h>
